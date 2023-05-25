@@ -100,6 +100,7 @@ loadItem();
 
 function listPage(){
     let count = Math.ceil(list.length / limit) ;
+    
     document.querySelector('.listPage').innerHTML = "";
     if(thisPage != 1){
         let prev = document.createElement('li');
